@@ -1,12 +1,18 @@
 header {
+    width: 60%;
+    border-radius: 20px;
+    margin:  auto;
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 10vh;
-    background-color: #333;
-    color: #fff;
-    font-size: 2em;
+    background-color: #2a2438;
+    color: #dbd8e3;
+    font-size: 20em;
+}
+
+body:not(#universe) {
+    background-color: #dbd8e3;
 }
 
 .game-controller {
@@ -24,11 +30,11 @@ header {
 }
 
 .filled {
-    background-color: black;
+    background-color: #352f44;
 }
 
 .empty {
-    background-color: white;
+    background-color: #dbd8e3;
 }
 
 table {
@@ -37,10 +43,33 @@ table {
     border-collapse: collapse;
 }
 
-.universe {
-    /* background-color: #f0f0f0; */
-    padding: 20px;
+#universe {
+    padding: 30px;
     border-radius: 5px;
+}
+
+.btn {
+
+    border-color: black;
+    font-style: oblique;
+    color: rgb(180, 180, 180);
+
+}
+
+#play {
+    background-color: #2a2438;
+}
+
+#pause {
+    background-color: #2a2438;
+}
+
+#reset {
+    background-color: #2a2438;
+}
+
+.button-container button {
+    margin: 5px;
 }
 
 div {
