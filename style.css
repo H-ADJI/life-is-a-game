@@ -1,18 +1,22 @@
 header {
     width: 60%;
     border-radius: 20px;
-    margin:  auto;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 10vh;
-    background-color: #2a2438;
-    color: #dbd8e3;
+    background-color: #3C4048;
+    color: #EAEAEA;
     font-size: 20em;
+    font-family: Montserrat;
 }
 
 body:not(#universe) {
-    background-color: #dbd8e3;
+    font-family: Montserrat;
+
+    background-color: #B2B2B2;
+
 }
 
 .game-controller {
@@ -46,6 +50,8 @@ table {
 #universe {
     padding: 30px;
     border-radius: 5px;
+    justify-content: center;
+
 }
 
 .btn {
@@ -57,24 +63,32 @@ table {
 }
 
 #play {
-    background-color: #2a2438;
+    background-color: #3C4048;
 }
 
 #pause {
-    background-color: #2a2438;
+    background-color: #3C4048;
 }
 
 #reset {
-    background-color: #2a2438;
+    background-color: #3C4048;
 }
 
 .button-container button {
     margin: 5px;
 }
 
-div {
-    align-items: center;
+
+div#game-controller {
     display: flex;
     justify-content: center;
-    border-collapse: collapse;
+
+}
+div {
+    align-items: center;
+
+}
+#explanation {
+    background-color: #EAEAEA;
+
 }
